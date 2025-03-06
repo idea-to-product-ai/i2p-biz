@@ -1,5 +1,5 @@
 {
-  "name": "@i2p/biz",
+  "name": "i2p-biz",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "gavincly@gmail.com",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.4.1",
@@ -16,6 +16,9 @@
     "fs-extra": "^11.3.0"
   },
   "bin": {
-    "shadcn": "./bin/cli.js"
+    "i2p": "bin/cli.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
